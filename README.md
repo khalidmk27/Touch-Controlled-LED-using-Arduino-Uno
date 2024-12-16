@@ -1,7 +1,7 @@
 # Touch Sensor LED Control
 
 ## Overview
-This project demonstrates a simple embedded system that uses a touch sensor to control an LED. The code is written in Embedded C for an Arduino Mega and compiled using the AVR-GCC toolchain. When the touch sensor is activated, the LED connected to pin D13 lights up.
+This project demonstrates a simple embedded system that uses a touch sensor to control an LED. The code is written in Embedded C for an Arduino Uno and compiled using the AVR-GCC toolchain. When the touch sensor is activated, the LED connected to pin D13 lights up.
 
 ## Features
 - Detects input from a touch sensor connected to pin D10.
@@ -10,7 +10,7 @@ This project demonstrates a simple embedded system that uses a touch sensor to c
 
 ## Requirements
 - **Hardware:**
-  - Arduino Mega
+  - Arduino Uno
   - Touch sensor module
   - LED
   - Resistors (if required)
@@ -41,8 +41,8 @@ This project demonstrates a simple embedded system that uses a touch sensor to c
 
 2. **Software Setup:**
    - Open `touch_led.ino` in the Arduino IDE.
-   - Select the correct board (**Arduino Mega 2560**) and port.
-   - Upload the code to the Arduino Mega.
+   - Select the correct board (**Arduino Uno**) and port.
+   - Upload the code to the Arduino Uno.
 
 3. **Run the System:**
    - Activate the touch sensor to observe the LED turning on and off accordingly.
