@@ -5,7 +5,7 @@
 
 int main()
 {
-  DDRB |= (1<<LED);              // Setting LED pin as output
+  DDRB |= (1<<LED);              //Setting LED pin as output
   DDRB &= ~(1<<TOUCH_IN);        //Ensuring TOUCH_IN pin as input
 
   while(1)                       //Continuous loop
