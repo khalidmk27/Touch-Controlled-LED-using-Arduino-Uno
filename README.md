@@ -51,6 +51,14 @@ This project demonstrates a simple embedded system that uses a touch sensor to c
 - Ensure the touch sensor module provides a stable HIGH signal when activated.
 - The code assumes no external pull-up/pull-down resistors are needed; use internal pull-ups if necessary.
 
+## Clone the Repository
+
+To clone this repository, run the following command in your terminal or command prompt:
+
+```bash
+git clone https://github.com/khalidmk27/Touch-Controlled-LED-using-Arduino-Uno.git
+```
+
 ## License
 This project is open-source and distributed under the MIT License. Feel free to modify and use it as per your requirements.
 
