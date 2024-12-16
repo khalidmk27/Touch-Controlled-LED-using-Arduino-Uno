@@ -1,7 +1,7 @@
 # Touch Sensor LED Control
 
 ## Overview
-This project demonstrates a simple embedded system that uses a touch sensor to control an LED. The code is written in Embedded C for an Arduino Uno and compiled using the AVR-GCC toolchain. When the touch sensor is activated, the LED connected to pin D13 lights up.
+This project demonstrates a simple embedded system that uses a touch sensor to control an LED. The code is written in Embedded C for an Arduino Uno and compiled using the Arduino IDE. When the touch sensor is activated, the LED connected to pin D13 lights up.
 
 ## Features
 - Detects input from a touch sensor connected to pin D10.
